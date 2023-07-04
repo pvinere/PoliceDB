@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #B2B5B6;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.policedb.policedb.agentPanel">
+    <children>
+        <Label layoutX="66.0" layoutY="24.0" prefHeight="35.0" prefWidth="150.0" text="Agent Panel" textFill="#164a9e">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+        </Label>
+        <ImageView fitHeight="54.0" fitWidth="64.0" layoutX="12.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../../java/com/policedb/policedb/policelogo1.png" />
+            </image>
+        </ImageView>
+        <Label fx:id="callName" layoutX="249.0" layoutY="21.0" prefHeight="41.0" prefWidth="337.0" text="insert_name">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Button layoutX="525.0" layoutY="361.0" mnemonicParsing="false" onAction="#backButtonLogin" style="-fx-background-color: #164a9e;" text="Logout" textFill="WHITE" />
+
+    </children>
+</AnchorPane>
